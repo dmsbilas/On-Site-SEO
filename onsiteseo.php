@@ -29,7 +29,7 @@ class OnsiteSeo
     
     public function SalsabeelKeywordsMenu()
     {
-        add_menu_page( 'Sal Sabeel Keywords', 'Sal Sabeel Keywords', 'manage_options', 'add_keywords',array(&$this,'AddKeywordsPage'));
+        add_menu_page( 'SEO Keywords', 'SEO Keywords', 'manage_options', 'add_keywords',array(&$this,'AddKeywordsPage'));
     }
     
     public function AddKeywordsPage()
