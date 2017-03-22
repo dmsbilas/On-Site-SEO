@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; 
+
 $args = array(
 'post_type' => 'page',
 'post_status' => 'publish'
